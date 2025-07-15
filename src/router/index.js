@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../pages/Home.vue";
+import Academy from "../pages/Academy.vue";
+import Accordion from "../pages/Accordion.vue";
+import AdvanceForms from "../pages/AdvanceForms.vue";
 import Button from "../pages/Button.vue";
 import Card from "../pages/Card.vue";
 import Input from "../pages/FormElements.vue";
-import Accordion from "../pages/Accordion.vue";
-import AdvanceForms from "../pages/AdvanceForms.vue";
+import HomeView from "../pages/Home.vue";
 import Overlays from "../pages/Overlays.vue";
 
 const router = createRouter({
@@ -14,6 +15,11 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
+    },
+    {
+      path: "/academy",
+      name: "academy",
+      component: Academy,
     },
     {
       path: "/button",

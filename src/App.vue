@@ -1,12 +1,20 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
+import { computed } from 'vue';
+import { RouterView, useRoute } from 'vue-router';
 import Navbar from './components/Navbar.vue';
+
+const route = useRoute()
+const isAcademyPage = computed(() => route.name === 'academy')
 </script>
 
 <template>
-  <Navbar />
+  <Navbar v-if="!isAcademyPage" />
 
-  <div class="p-6">
+  <div v-if="!isAcademyPage" class="p-6">
+    <RouterView />
+  </div>
+
+  <div v-else>
     <RouterView />
   </div>
 </template>
