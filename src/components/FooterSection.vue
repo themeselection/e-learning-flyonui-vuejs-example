@@ -88,9 +88,9 @@
         <div class="via-primary/30 mx-auto h-px bg-gradient-to-r from-transparent to-transparent"></div>
 
         <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-6 sm:px-6 lg:px-8">
-            <a href="" title="CodeCraft Academy" class="text-base-content flex items-center gap-3 text-xl font-bold">
-                <img src="https://i.imgur.com/8U1sx0c.png" class="size-8" alt="CodeCraft Academy logo" />
-                <span>CodeCraft Academy</span>
+            <a class="text-base-content flex items-center gap-3 text-xl font-bold" href="#">
+                <span class="icon-[tabler--code] size-8 text-primary"></span>
+                CodeCraft Academy
             </a>
             <div class="flex h-5 gap-4">
                 <a href="#" class="link" aria-label="Github Link">
