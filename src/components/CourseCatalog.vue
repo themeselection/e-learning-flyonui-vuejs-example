@@ -25,7 +25,7 @@
                 <nav class="tabs bg-neutral/10 rounded-field w-fit space-x-1 overflow-x-auto p-0.5 max-sm:w-full max-sm:flex-col"
                     aria-label="Course Filter Tabs" role="tablist" aria-orientation="horizontal">
                     <button v-for="tab in tabs" :key="tab.id" type="button" :class="[
-                        'btn btn-text hover:text-primary hover:bg-transparent',
+                        'btn btn-text',
                         activeTab === tab.id ? 'bg-primary text-white' : ''
                     ]" @click="activeTab = tab.id">
                         {{ tab.label }}
