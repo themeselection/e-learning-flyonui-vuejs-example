@@ -5,5 +5,5 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
-  // base: '/examples/mcp/e-learning/',
+  // base: '/examples/mcp/e-learning-vue-demo/',
 });
